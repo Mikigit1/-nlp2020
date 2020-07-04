@@ -5,16 +5,17 @@
 
 text = "I am an NLPer"
 
-def nGram(text, num):
-    text = text.split()
+
+def nGramWord(text, num):
     #スライス
     result = [text[index : index+num ] for index in range(len(text)-num+1)]
 
     return result
 
-#unigram
-print(nGram(text,1))
-#bigram
-print(nGram(text,2))
-#trigram
-print(nGram(text,3))
+
+for i in range(1,5):
+    print(str(i)+"番目")
+    #単語n-gram
+    print(nGramWord(text.split(),i))
+    #文字n-gram
+    print(nGramWord(text.replace(' ', ''),i))
