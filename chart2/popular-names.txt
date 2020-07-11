@@ -166,7 +166,7 @@ Margaret	F	2904	1888
 Minnie	F	2654	1888
 Bertha	F	2450	1888
 Florence	F	2444	1888
-Ethel	F	2374	1888
+Ethel	F	2374	1888１９６８
 Bessie	F	2278	1888
 John	M	9247	1888
 William	M	8705	1888
