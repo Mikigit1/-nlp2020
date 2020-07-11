@@ -6,7 +6,11 @@
 '''
 unixコマンドは
 sed -e 's/\t/ /g' chart2/popular-names.txt
+
+（タブをスペースに変換）
 tr '\t' ' ' chart2/popular-names.txt
+
+(-tはタブ、1は置換したあと何個スペース空けるか)
 expand -t 1 chart2/popular-names.txt
 '''
 
