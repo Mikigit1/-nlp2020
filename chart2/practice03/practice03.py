@@ -4,6 +4,12 @@
 
 【参考URL】
 https://pythondatascience.plavox.info/pandas/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%82%92%E5%87%BA%E5%8A%9B%E3%81%99%E3%82%8B
+https://takuya-1st.hatenablog.jp/entry/2014/08/04/150300
+
+cutコマンド
+cut -f 1 chart2/popular-names.txt
+cut -f 2 chart2/popular-names.txt
+
 '''
 
 import pandas as pd
