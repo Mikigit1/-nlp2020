@@ -1,0 +1,1 @@
+wc -l chart2/popular-names.txt

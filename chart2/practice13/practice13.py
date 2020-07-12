@@ -12,6 +12,7 @@ cut -f 2 chart2/popular-names.txt
 
 '''
 
+#ソースコード
 import pandas as pd
 
 df = pd.read_table('chart2/popular-names.txt',header=None,names=['name','sex','number','year'])
