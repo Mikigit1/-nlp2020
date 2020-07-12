@@ -17,8 +17,8 @@ import pandas as pd
 
 df = pd.read_table('chart2/popular-names.txt',header=None,names=['name','sex','number','year'])
 col1 = df['name']
-col1.to_csv('chart2/practice03/col1.txt',index=False)
+col1.to_csv('chart2/practice12/col1.txt',index=False)
 col2 = df['sex']
-col2.to_csv('chart2/practice03/col2.txt',index=False)
+col2.to_csv('chart2/practice12/col2.txt',index=False)
 
 print(df)
