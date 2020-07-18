@@ -1,0 +1,1 @@
+paste chart2/practice13/col1.txt chart2/practice13/col2.txt 

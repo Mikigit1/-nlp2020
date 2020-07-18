@@ -12,7 +12,7 @@ clo1 = col1.to_csv('chart2/practice13/col1.txt',index=False)
 col2 = df['sex']
 col2 = col2.to_csv('chart2/practice13/col2.txt',index=False)
 
-#ソースコード
+#連結
 col1 = pd.read_table('chart2/practice13/col1.txt')
 col2 = pd.read_table('chart2/practice13/col2.txt')
 
