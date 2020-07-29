@@ -1,1 +1,1 @@
-cut -f 1 ../popular-names.txt
+cut -f 1 ../popular-names.txt | sort | uniq
