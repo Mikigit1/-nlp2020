@@ -15,7 +15,7 @@ randomモジュールの関数sample()で、リストからランダムで複数
 第一引数にリスト、第二引数に取得したい要素の個数を指定する。リストが返される。
 '''
 
-def randomSort(word):
+def typoglycemia(word):
      if len(word) <= 4:
          return word
      else:
@@ -23,10 +23,10 @@ def randomSort(word):
          return ''.join([word[0]] + text + [word[-1]])
 
 
-sentense = input("英文を入力してください>>")
-ans = [randomSort(word) for word in sentense.split()]
+sentense = input("解答1の英文>>")
+ans = [typoglycemia(word) for word in sentense.split()]
 
-print(' '.join(ans))
+print('解答1の変換結果：'+' '.join(ans))
 
 '''
 元のリストをシャッフル: random.shuffle()
@@ -47,8 +47,8 @@ def Typoglycemia(target):
     return ' '.join(result)
 
 # 対象文字列の入力
-target = input('文字列を入力してください--> ')
+target = input('解答2の英文--> ')
 
 # タイポグリセミア
 result = Typoglycemia(target)
-print('変換結果:' + result)
+print('解答2の変換結果:' + result)
