@@ -8,7 +8,6 @@ windows環境の場合、utf-8ではなく、cp932でコーディングされる
 with gzip.open('chart3/jawiki-country.json.gz',mode='rt', encoding = 'utf-8_sig') as f:
 と記載する。
 '''
-
 with gzip.open('chart3/jawiki-country.json.gz',mode='rt') as f:
     for line in f:
         json_load = json.loads(line)
