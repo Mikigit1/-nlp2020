@@ -13,7 +13,8 @@ def search():
 #findall(pattern, string)	正規表現にマッチする部分文字列を全て探しだしリストとして返します。
 result = re.findall(r'^(.*\[\[Category:.*\]\].*)$',search(),re.MULTILINE)
 
+    
 for line in result:
     line = line.strip(r'^(.*\[\[Category:')
     line = line.strip(r'.*\]\].*)$')
-    print(line.strip(r'\|.$'))
+    print(line.strip(r'.\|元$'))#無理やり
