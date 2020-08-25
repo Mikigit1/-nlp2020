@@ -2,6 +2,9 @@
 import gzip
 import json
 
+# import pandas
+# df = pd.read_json("chart3/jawiki-country.json.gz", lines=True)
+# text = df.query('title=="イギリス"')['text'].values[0]
 
 '''
 windows環境の場合、utf-8ではなく、cp932でコーディングされるため
