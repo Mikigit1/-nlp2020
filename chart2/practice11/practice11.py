@@ -5,5 +5,5 @@
 
 with open('chart2/popular-names.txt','r') as file:
     for text in file:
-        # タブ(\t)を 空白へ置換（strip空白（文字の間は別）を除去）
+        # タブ(\t)を 空白へ置換（strip連続する空白を除去）
         print(text.strip().replace("\t"," "))
